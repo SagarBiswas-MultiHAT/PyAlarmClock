@@ -1,7 +1,7 @@
 # Python Alarm Clock
 
 ![Python Versions](https://img.shields.io/badge/python-3.9%2B-blue)
-![Tests](https://github.com/SagarBiswas-MultiHAT/PyAlarmClock/actions/workflows/python-ci.yml/badge.svg)
+![CI](https://github.com/SagarBiswas-MultiHAT/PyAlarmClock/actions/workflows/python-ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 
