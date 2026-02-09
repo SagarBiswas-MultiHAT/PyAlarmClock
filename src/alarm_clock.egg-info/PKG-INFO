@@ -1,3 +1,12 @@
+Metadata-Version: 2.4
+Name: alarm-clock
+Version: 1.1.0
+Summary: A simple Python alarm clock that plays a sound at a specified time.
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
 # Python Alarm Clock
 
 A small, focused alarm clock that waits for a specific time and then plays a sound. It is optimized for Windows (using `winsound` for `.wav` files) and otherwise uses Windows MCI to support files like `alarm.mp3`.
@@ -9,11 +18,6 @@ A small, focused alarm clock that waits for a specific time and then plays a sou
 - **Play a sound** at the exact second the alarm triggers.
 - **Play mp3-ready sounds** via Windows MCI (and fall back to a console beep).
 - **Stop cleanly** with `Ctrl+C`.
-
----
-
-![](https://imgur.com/DGCjXfI.png)
-
 
 ## Quick Start (No Install)
 

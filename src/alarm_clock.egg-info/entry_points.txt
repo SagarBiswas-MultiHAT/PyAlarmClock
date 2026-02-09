@@ -1,0 +1,2 @@
+[console_scripts]
+alarm-clock = alarm_clock.cli:main
