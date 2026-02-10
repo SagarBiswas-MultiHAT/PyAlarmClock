@@ -3,7 +3,9 @@
 ![Python Versions](https://img.shields.io/badge/python-3.9%2B-blue)
 ![CI](https://github.com/SagarBiswas-MultiHAT/PyAlarmClock/actions/workflows/python-ci.yml/badge.svg?label=CI)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-
+![Tests](https://img.shields.io/badge/tests-pytest-brightgreen)
+![Ruff](https://img.shields.io/badge/lint-ruff-101010)
+![Last commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/PyAlarmClock)
 
 A small, focused alarm clock that waits for a specific time and then plays a sound. It is optimized for Windows (using `winsound` for `.wav` files) and otherwise uses Windows MCI to support files like `alarm.mp3`.
 
